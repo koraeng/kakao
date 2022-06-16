@@ -9,7 +9,7 @@ $('.dark').click(function(){
     $('.loginPop').hide(); 
 });
 
-$('.btn_charactor').click(function(){
+$('.btn_character').click(function(){
     $(this).find('span').toggleClass('on') 
     $('.charactorWrap').slideToggle(300);
 }); 
